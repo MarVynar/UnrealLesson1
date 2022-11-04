@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HomeWork1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BE4FED4A-451B-4946-B8CF-FC9DEB4C4FFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HomeWork1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HomeWork1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{75417BF6-39CA-4BD5-8508-87B5684B0DD1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HomeWork1">
+      <UniqueIdentifier>{F123C7FC-9BEE-40E7-A4EB-EA32361FCD93}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HomeWork1\HomeWork1.Build.cs">
+      <Filter>Source\HomeWork1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HomeWork1\HomeWork1.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\HomeWork1.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\HomeWork1Character.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\HomeWork1Character.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\HomeWork1GameMode.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\HomeWork1GameMode.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\HomeWork1HUD.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\HomeWork1HUD.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\HomeWork1Projectile.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\HomeWork1Projectile.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\MyActorChangingColors.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\MyActorChangingColors.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\MyActorCurrentTime.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\MyActorCurrentTime.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\MyActorLifeSpan.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\MyActorLifeSpan.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\MyActorTimer.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\MyActorTimer.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HomeWork1\MyGameModeParent.cpp">
+      <Filter>Source\HomeWork1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HomeWork1\MyGameModeParent.h">
+      <Filter>Source\HomeWork1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

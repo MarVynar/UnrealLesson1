@@ -1,0 +1,11 @@
+F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\Definitions.HomeWork1.h
+F:\UnrealVault\HomeWork1\Source\HomeWork1\HomeWork1Projectile.h
+F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Inc\HomeWork1\HomeWork1Projectile.generated.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

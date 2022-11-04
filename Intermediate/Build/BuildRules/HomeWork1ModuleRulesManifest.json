@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\UnrealVault\\HomeWork1\\Source\\HomeWork1\\HomeWork1.Build.cs",
+		"F:\\UnrealVault\\HomeWork1\\Source\\HomeWork1.Target.cs",
+		"F:\\UnrealVault\\HomeWork1\\Source\\HomeWork1Editor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

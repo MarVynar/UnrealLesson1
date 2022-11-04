@@ -1,0 +1,17 @@
+F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\Definitions.HomeWork1.h
+F:\UnrealVault\HomeWork1\Source\HomeWork1\HomeWork1HUD.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Inc\HomeWork1\HomeWork1HUD.generated.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+F:\UnrealVault\UE_4.27\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+F:\UnrealVault\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h

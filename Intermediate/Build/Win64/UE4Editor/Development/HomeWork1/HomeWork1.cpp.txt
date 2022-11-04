@@ -1,0 +1,2 @@
+F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\Definitions.HomeWork1.h
+F:\UnrealVault\HomeWork1\Source\HomeWork1\HomeWork1.h

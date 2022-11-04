@@ -1,0 +1,16 @@
+﻿  Parsing headers for HomeWork1Editor
+    Running UnrealHeaderTool "F:\UnrealVault\HomeWork1\HomeWork1.uproject" "F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\HomeWork1Editor\Development\HomeWork1Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Marik\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HomeWork1Editor in 12,4999618 seconds
+  Building HomeWork1Editor...
+  Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 16 processes...
+    [1/5] MyActorTimer.gen.cpp
+    [2/5] MyActorTimer.cpp
+    [3/5] UE4Editor-HomeWork1-0006.lib
+       Creating library F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\UE4Editor-HomeWork1-0006.lib and object F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\UE4Editor-HomeWork1-0006.exp
+    [4/5] UE4Editor-HomeWork1-0006.dll
+       Creating library F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\UE4Editor-HomeWork1-0006.suppressed.lib and object F:\UnrealVault\HomeWork1\Intermediate\Build\Win64\UE4Editor\Development\HomeWork1\UE4Editor-HomeWork1-0006.suppressed.exp
+    [5/5] HomeWork1Editor.target
+  Total time in Parallel executor: 9,31 seconds
+  Total execution time: 22,50 seconds
