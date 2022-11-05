@@ -1,13 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "MyActorChangingColors.h"
+#include "MyActorChanginOneMat.h"
 
 // Sets default values
-AMyActorChangingColors::AMyActorChangingColors()
+AMyActorChanginOneMat::AMyActorChanginOneMat()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
 	MyMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
 	RootComponent = MyMeshComponent;
 
@@ -15,28 +16,32 @@ AMyActorChangingColors::AMyActorChangingColors()
 	MyTextComponent->SetupAttachment(RootComponent);
 	MyTextComponent->SetRelativeLocation(FVector(0, 0, 70));
 
-	MaterialRed = CreateDefaultSubobject<UMaterial>(TEXT("Red"));
-	MaterialGreen = CreateDefaultSubobject<UMaterial>(TEXT("Green"));
-	MaterialBlue = CreateDefaultSubobject<UMaterial>(TEXT("Blue"));
-
+	
 	lifeTime = 5.0f;
+	
 	currentColor = EColor::Red;
 
 }
 
 // Called when the game starts or when spawned
-void AMyActorChangingColors::BeginPlay()
+void AMyActorChanginOneMat::BeginPlay()
 {
 	Super::BeginPlay();
-	GetWorld()->GetTimerManager().SetTimer(lifeTimerHandle, this, &AMyActorChangingColors::timerFunction, lifeTime, true, 0);
 
+	Material = MyMeshComponent->GetMaterial(0);
+	Dynamic = UMaterialInstanceDynamic::Create(Material, this);
+	MyMeshComponent->SetMaterial(0, Dynamic);
+	GetWorld()->GetTimerManager().SetTimer(lifeTimerHandle, this, &AMyActorChanginOneMat::timerFunction, lifeTime, true, 0);
+	Dynamic->SetVectorParameterValue(TEXT("Color"), FLinearColor::Red);
+	
 }
 
-void AMyActorChangingColors::timerFunction()
+void  AMyActorChanginOneMat::timerFunction()
 {
-	if (currentColor == EColor::Red){
+	
+	if (currentColor == EColor::Red) {
 
-		MyMeshComponent->SetMaterial(0, MaterialGreen);
+		Dynamic->SetVectorParameterValue(TEXT("Color"), FLinearColor::Green);
 		currentColor = EColor::Green;
 		MyTextComponent->SetText(FText::FromString(TEXT("Green")));
 		MyTextComponent->SetTextRenderColor(FColor::Green);
@@ -44,7 +49,7 @@ void AMyActorChangingColors::timerFunction()
 
 	else if (currentColor == EColor::Green) {
 
-		MyMeshComponent->SetMaterial(0, MaterialBlue);
+		Dynamic->SetVectorParameterValue(TEXT("Color"), FLinearColor::Blue);
 		currentColor = EColor::Blue;
 		MyTextComponent->SetText(FText::FromString(TEXT("Blue")));
 		MyTextComponent->SetTextRenderColor(FColor::Blue);
@@ -52,7 +57,7 @@ void AMyActorChangingColors::timerFunction()
 
 	else if (currentColor == EColor::Blue) {
 
-		MyMeshComponent->SetMaterial(0, MaterialRed);
+		Dynamic->SetVectorParameterValue(TEXT("Color"), FLinearColor::Red);
 		currentColor = EColor::Red;
 		MyTextComponent->SetText(FText::FromString(TEXT("Red")));
 		MyTextComponent->SetTextRenderColor(FColor::Red);
@@ -60,7 +65,7 @@ void AMyActorChangingColors::timerFunction()
 }
 
 // Called every frame
-void AMyActorChangingColors::Tick(float DeltaTime)
+void AMyActorChanginOneMat::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

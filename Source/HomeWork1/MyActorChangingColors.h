@@ -8,7 +8,7 @@
 #include "MyActorChangingColors.generated.h"
 
 UENUM(BlueprintType)
-enum EColor {
+enum  EColor  {
 
 	Red UMETA(DisplayName = "Red"),
 	Green UMETA(DisplayName = "Green"),
